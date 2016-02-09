@@ -13,7 +13,7 @@ var InputBox = React.createClass({
 	  <input type='text' onSubmit={this.handleSubmit} />
         </form>
       </div>
-	   )
+    )
   }
 });
 
