@@ -4,25 +4,25 @@ var ToDoList = require('./toDoList.js');
 // var ToDoListItem = require('./toDoListItem.js');
 
 var ToDoApp = React.createClass({
-	getInitialState: function(){
-		return {
-			toDos: []
-		};
-	},
+  getInitialState: function(){
+    return {
+      toDos: []
+    };
+  },
 
-	addToDoListItem: function(item){
-		//this.setState({toDos: })
-	},
+  addToDoListItem: function(item){
+    //this.setState({toDos: })
+   },
 
-	render: function(){
-		return (
-					<div>
-						ToDo App
-						<InputBox onAddTodoListItem={this.addToDoListItem}/>
-						<ToDoList /> 
-					</div>
-		)
-	}
+  render: function(){
+    return (
+      <div>
+	ToDo App
+	<InputBox onAddTodoListItem={this.addToDoListItem}/>
+	<ToDoList /> 
+      </div>
+    )
+  }
 
 });
 
