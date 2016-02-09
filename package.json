@@ -1,0 +1,31 @@
+{
+  "name": "reacttodolist",
+  "version": "1.0.0",
+  "description": "a practice todo app using react",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "./node_modules/.bin/nodemon server.js --ignore client/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Russell",
+  "license": "ISC",
+  "dependencies": {
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "browserify-middleware": "^7.0.0",
+    "express": "^4.13.4",
+    "jquery": "^2.2.0",
+    "nodemon": "^1.8.1",
+    "path": "^0.12.7",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "reactify": "^1.1.1",
+    "underscore": "^1.8.3",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "vinyl-source-stream": "^1.1.0",
+    "nodemon": "^1.8.1"
+  }
+}
